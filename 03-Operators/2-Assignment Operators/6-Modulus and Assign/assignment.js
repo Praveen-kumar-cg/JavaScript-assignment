@@ -28,3 +28,28 @@ let totalMonths=365;
 let months=12;
 totalMonths%=months;
 console.log(`The month remaining after the all month pay to years ${totalMonths}`)
+
+//Q6
+let a = 10;
+a %= 0;
+console.log(a);                 //nan
+
+//Q7
+let x = 0;
+x %= 5;
+console.log(x);                //0
+
+//Q8
+let p = -10;
+p %= 3;
+console.log(p);                   //-1
+
+//Q9
+let m = 10;
+m %= -3;
+console.log(m);                 //1
+
+//Q10
+let val = -10;
+val %= -3;
+console.log(val);                  //-1

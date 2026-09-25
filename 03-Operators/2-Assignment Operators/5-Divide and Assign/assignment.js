@@ -28,3 +28,28 @@ let marks=2500;
 let students=10;
 marks/=students;
 console.log(`the marks distrubuted among each student is ${marks}`)
+
+//Q6
+let a = "100";
+a /= 5;
+console.log(a);                  //20
+
+//Q7
+let x = "200";
+x /= "4";
+console.log(x);              //50
+
+//Q8
+let p = 10;
+p /= 0;
+console.log(p);                //infinity
+
+//Q9
+let m = -10;
+m /= 0;
+console.log(m);                  //-Infinity
+
+//Q10
+let val = 0;
+val /= 0;
+console.log(val);                 //nan

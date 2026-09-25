@@ -26,3 +26,28 @@ let totalPoint=2000;
 let losePoint=625;
 totalPoint-=losePoint;
 console.log(`the remaining point after losing the point is ${totalPoint}`)
+
+//Q6
+let a = "20";
+a -= 5;
+console.log(a);             //15
+
+//Q7
+let x = "100";
+x -= "50";
+console.log(x);               //50
+
+//Q8
+let p = 10;
+p -= "abc";
+console.log(p);             //nan
+
+//Q9
+let m = 5;
+m -= true;
+console.log(m);           //4
+
+//Q10
+let val = 20;
+val -= false;
+console.log(val);            //19

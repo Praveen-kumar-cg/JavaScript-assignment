@@ -27,3 +27,30 @@ let books=840;
 let newAdded=160;
 books+=newAdded;
 console.log(`the total book after added new books is ${books}`)
+
+//Q6
+let a = "10";
+a += 5;
+console.log(a);              //105
+
+//Q7
+let x = 5;
+x += "3";
+console.log(x);              //53
+
+//Q8
+let p = 0;
+p += false;
+console.log(p);                 //0
+
+
+//Q9
+let m = 10;
+m += true;
+console.log(m);                   //11
+
+
+//Q10
+let val = "Hello";
+val += "World";
+console.log(val);                 //helloworld
