@@ -1,23 +1,23 @@
 const prompt = require("prompt-sync")();
 //D. Nested if Statement
 
-// //Q1
-// let num1=Number(prompt("enter an number:-"))
-// if (num1>10){
-//     if(num1%3==0){
-//         console.log("numner is greater tha 10 and divisible by 3")
-//     }
-// }
+//Q1
+let num1=Number(prompt("enter an number:-"))
+if (num1>10){
+    if(num1%3==0){
+        console.log("numner is greater tha 10 and divisible by 3")
+    }
+}
 
-// //Q2
-// let age=Number(prompt("enter the age:-"))
-// let voterId=true
-// if (age>=18){
-//     if (voterId==true){
-//         console.log("can vote")
-//     }
+//Q2
+let age=Number(prompt("enter the age:-"))
+let voterId=true
+if (age>=18){
+    if (voterId==true){
+        console.log("can vote")
+    }
 
-// }
+}
 
 //Q3
 let scoreMarkas=Number(prompt("enter score:-"))
@@ -74,11 +74,11 @@ if (number > 0) {
 
 
 //Q9
-let age = Number(prompt("Enter your age:"));
+let age1 = Number(prompt("Enter your age:"));
 let hasDegree = prompt("Do you have a graduation degree? (yes/no)");
 let experience = Number(prompt("Enter your years of experience:"));
 
-if (age >= 21 && age <= 30) {
+if (age1 >= 21 && age1 <= 30) {
     if (hasDegree === "yes") {
         if (experience >= 2) {
             console.log("Eligible for Interview");
