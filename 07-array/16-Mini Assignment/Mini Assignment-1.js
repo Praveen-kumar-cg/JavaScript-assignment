@@ -5,23 +5,22 @@ const cart = [
     ["Keyboard", 1500, 1],
     ["Headphones", 2500, 1]
 ];
-let grandTotal=0;
-for (let i=0;i<cart.length;i++){
-    for (let j=0;j<cart[0].length;j++){
-        let productpice=cart[i][1]*cart[i][2];
-        grandTotal+=productpice
-        console.log(`
+let grandTotal = 0;
+for (let i = 0; i < cart.length; i++) {
+    let productpice = cart[i][1] * cart[i][2];
+    grandTotal += productpice
+    console.log(`
             Product:${cart[i][0]}
             Price:${cart[i][1]}
             Quantity:${cart[i][2]}
             Item Total:${productpice}`)
-        
-        
-    }
+
+
+
 }
 console.log(grandTotal)
-if (grandTotal>50000){
-    let discount=0.9
-    grandTotal=grandTotal*discount
+if (grandTotal > 50000) {
+    let discount = 0.9
+    grandTotal = grandTotal * discount
 }
 console.log(grandTotal)
