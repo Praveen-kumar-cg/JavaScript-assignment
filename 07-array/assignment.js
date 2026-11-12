@@ -314,3 +314,113 @@ let matrix5=[
 ]
 matrix5[1][1]=100
 console.log(matrix5)
+
+
+//Q6
+let matrix6=[
+    [1,2],
+    [3,4],
+    [5,6],
+    [7,8]
+]
+for (let i=0;i<matrix6.length;i++){
+    console.log(matrix6[i][1])
+}
+
+//Q7
+const marks7 = [
+    [85, 90, 78],
+    [70, 75, 80],
+    [88, 82, 95],
+    [60, 65, 70]
+];
+console.log(marks7[2])
+
+
+//Q8
+let matrix8 = [
+    [85, 90, 78,34],
+    [70, 75, 80,23],
+    [88, 82, 95,56]
+];
+let count8=0;
+for (let i=0;i<matrix8.length;i++){
+    for (let j=0;j<matrix8[1].length;j++){
+        count8+=1;
+    }
+}
+console.log(`the total number of the element in the matrix is ${count8}`)
+
+
+//Q9
+let matrix9=[
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+matrix9[1][1]=0
+console.log(matrix9)
+
+
+//Q10
+let matrix9=[
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+];
+console.log(matrix9[0][matrix9[0].length-1])
+
+//Q11
+const marks = [
+    [85, 90,23], // Jenil
+    [70, 75, 80], // Arjun
+    [88, 82, 89]  // Krishna
+];
+
+for (let i = 0; i < marks.length; i++) {
+    const studentMarks = marks[i];
+    const total = studentMarks[0] + studentMarks[1] + studentMarks[2];
+    const avg = total / 3;
+    console.log("Student " + (i + 1) + " average: " + avg);
+}
+//1= it get the every student data from the matrix
+
+//2=it is usefull for the every martix instant of the the any fixed length
+
+//3=Student 1 average: NaN it give the not an number
+
+
+
+
+//13. Common Mistakes
+//Q1
+const arr = [10, 20, 30];
+console.log(arr[3]);
+
+//undefined
+
+
+//Q2
+arr[arr.length] = 10;
+console.log(arr)
+
+//because this add the item at the lant not in place of the 30 so use the length-1 to add the items at the place of the 30
+
+
+//Q3
+let arr = [10, 20, 30];
+arr[arr.length-1] = 40;
+console.log(arr)
+
+//Q4
+const a = [];
+a[5] = 10; // Creates empty slots
+console.log(a)
+
+
+//Q5
+//no it give the -1 instant of the error 
+
+Q6
+// so arrey is the orderd collection of the data and the object is the key value pair data
+
